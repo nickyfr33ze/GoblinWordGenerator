@@ -26,7 +26,7 @@ Telegram: <a href="https://t.me/un00mz">@SamJunior</a>
 
 * **Ubuntu - 16.04.3 LTS**
 
-* **macOS Sequioa - 15.1 (24B83)**
+* **macOS Sequoia - 15.1 (24B83)**
 
 ### CLONE
 ```
