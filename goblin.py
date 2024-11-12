@@ -8,6 +8,7 @@
 ##################
 
 import itertools
+import os
 
 
 ban = '''
@@ -33,10 +34,11 @@ else:
 	pass
 
 chrs_up = chrs.upper()
-chrs_specials = '!\][/?.,~-=";:><@#$%&*()_+\' '
+chrs_specials = r'!\][/?.,~-=";:><@#$%&*()_+\' '
 chrs_numerics = '1234567890'
 
-file_name = input('\n\033[36m[!] Insert a name for your wordlist file: ')
+file_name = input('\n\033[36m[!] Insert a name for your wordlist file (with full path if desired): ')
+file_name = os.path.expanduser(file_name)  # Expand ~ to user home directory if used
 arq = open(file_name, 'w')
 if input('\n\033[36m[?] Do you want to use uppercase characters? (y/n): ') == 'y':
 	chrs = ''.join([chrs, chrs_up])
