@@ -3,18 +3,15 @@
 # By: Sam Junior and UndeadSec
 # Goblin Wordlist Generator
 # Version: 2.0
-#
+# Altered on 1/21/25 by Nick Friesen
 #
 ##################
 
 import itertools
 import os
 
-
 ban = '''
-
                                                     '''
-
 print('\n------------------\n\n G 0 B L ! N \033[32m2.0\033[m | WORDGENERATOR\n\n~ by: UndeadSec and Sam Junior:@un00mz\n\n------------------\n')
 
 scale = input('\033[36m[!] provide a size scale [eg: "1 to 8" = 1:8] : ')
